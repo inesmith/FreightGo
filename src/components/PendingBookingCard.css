@@ -1,0 +1,136 @@
+/* src/components/PendingBookingCard.css */
+
+.pending-booking-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2B300B;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Karla', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.material-icons {
+    color: #2B300B;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #2B300B;
+    float: left;
+    margin-left: -250px;
+    padding-top: 12px;
+}
+
+.booking-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.card-details {
+    margin-top: 10px;
+}
+
+.nom{
+    margin-top: -10px;
+}
+
+.pickup {
+    margin: 10px 0;
+    color: #2B300B;
+    font-weight: bold;
+    margin-left:  50px;
+    margin-top: -30px;
+}
+
+.dropoff{
+    margin: 10px 0;
+    color: #2B300B;
+    font-weight: bold;
+    margin-left:  50px;
+    margin-top: -8px;
+}
+
+
+.additional-info {
+    margin: 10px 0;
+    color: #2B300B;
+    font-weight: medium;
+    margin-top: 40px;
+}
+
+
+.icon {
+    display: flex;
+    margin: 5px 0;
+    
+}
+
+.card-contact {
+    text-align: right;
+    color: #2B300B;
+    font-size: 0.9rem;
+    margin-top: -120px;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.accept-button, .reject-button {
+    padding: 6px 16px;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: medium;
+    cursor: pointer;
+    margin-top: 50px;
+    border-width: 2px solid;
+}
+
+.accept-button {
+    background-color: #2B300B;
+    color: white;
+    border: none;
+    margin-left: 460px;
+}
+
+.accept-button:hover {
+    background-color: #3A3A1A;
+}
+
+.reject-button {
+    background-color: transparent;
+    color: #2B300B;
+    border: 1px solid #2B300B;
+}
+
+.reject-button:hover {
+    background-color: #2B300B;
+    color: white;
+}
+
+.icon-container2 {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+  }
+  

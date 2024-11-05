@@ -1,0 +1,653 @@
+/* style.css */
+
+.auth-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background: url("/public/truck.png") no-repeat center center;
+  background-size: cover;
+}
+
+.auth-box {
+  margin-top: 105px;
+  border-radius: 10px 10px 0 0;
+  width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 590px;
+}
+
+.auth-box h2 {
+  font-size: 2rem;
+  color: #2b300b;
+  margin-bottom: 20px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 48px;
+  font-style: normal;
+}
+
+.auth-box p {
+  color: #2b300b;
+  margin-bottom: 20px;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: regular;
+  margin-left: -5px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-color: #2b300b;
+  border-width: 2px;
+  margin-left: -15px;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: regular;
+}
+
+.auth-button {
+  background-color: #4f4f24;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+  width: 126px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #2b300b;
+}
+
+.auth-button:hover {
+  background-color: #3a3a1a;
+}
+
+.auth-footer {
+  margin-top: 15px;
+}
+
+.auth-footer a {
+  color: #4f4f24;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+.forgot-password {
+  text-align: right; /* Aligns the text to the right */
+  margin-top: -10px; /* Adjust the spacing */
+  margin-bottom: 10px; /* Adds spacing below */
+}
+
+.forgot-password a {
+  color: #2b300b;
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  background-color: #2b300b; /* Dark green background */
+  padding: 20px 0; /* Adjust the height */
+  text-align: center;
+  height: 40px; /* Fixed height for the navbar */
+  display: flex;
+  position: sticky; /* Makes the navbar sticky */
+  top: 0; /* Stick to the top of the screen */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+}
+
+.nav-links {
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-left: 250px;
+  text-align: center;
+  display: flex;
+  gap: 40px; /* Adjust space between links */
+}
+
+.nav-links li {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6); /* Lower opacity for inactive links */
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  transition: color 0.3s ease; /* Smooth transition effect */
+  font-style: normal;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links a:hover,
+.nav-links .active-link {
+  color: rgba(255, 255, 255, 1); /* Fully white on hover or active link */
+  font-weight: bold; /* Optional: Make active links bold */
+}
+
+.navbar-logo img {
+  height: 25px; /* Adjust height as needed */
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* Converts logo to white */
+  float: left;
+  margin-left: 50px;
+  margin-top: 8px;
+}
+
+.log-out {
+  display: flex; /* Makes it a flexbox */
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  padding: 10px 20px; /* Adjusts padding */
+  background-color: rgba(255, 255, 255, 0); /* Button background */
+  color: white; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+  position: absolute; /* Positioning relative to the closest positioned ancestor */
+  top: 18px; /* Adjust distance from the top */
+  right: 50px; /* Adjust distance from the right */
+  border-color: white;
+  color: white; /* Change text color on hover */
+  background-color: #2b300b00;
+}
+
+/* Hover Effect */
+.log-out:hover {
+  background-color: white;
+  color: #2b300b; /* Change text color on hover */
+  border-color: #2b300b00;
+}
+
+/* HomePage Styles */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  width: 100%; /* Full width of the screen */
+  height: 100vh; /* Full height of the viewport */
+  background: url("/public/pexels-alexasfotos-10802569.jpg") no-repeat center
+    center;
+  background-size: cover; /* Ensure the image covers the section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  overflow: hidden; /* Prevents overflow issues */
+  margin-top: -40px;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: regular;
+}
+
+.hero-content {
+  background-color: #2b300ba6; /* Dark overlay for better readability */
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+  max-width: 80%; /* Restricts content width */
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: regular;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: "Krona One", sans-serif;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-family: "Karla", sans-serif;
+}
+
+.hero-button {
+  padding: 12px 24px;
+  background-color: #2b300b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #3a3a1a;
+}
+
+.why {
+  background-color: white;
+  padding: 40px;
+  color: #2b300b;
+  width: 1360px;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: large;
+  font-weight: 20px;
+  font-style: regular;
+}
+
+.why-h {
+  color: #2b300b;
+  font-family: "Krona One", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.services {
+  background-color: #2b300b;
+  padding: 40px;
+  color: white;
+  width: 1360px;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-size: large;
+  font-weight: 20px;
+  font-style: regular;
+}
+
+.service-h {
+  color: white;
+  font-family: "Krona One", sans-serif;
+  font-size: larger;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #2b300baa;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  text-decoration: none;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer-section p,
+.footer-section a {
+  font-family: "Karla", sans-serif;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-section a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Newsletter Form */
+.footer-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+}
+
+.footer-section input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer-section button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #2b300b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-section button:hover {
+  background-color: #2b300b;
+  color: white;
+  border: 1px solid white;
+}
+
+/* Footer Styles */
+
+.footer-image {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background: url("/public/pexels-quintingellar-2199293.jpg") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.footer-section ul {
+  list-style: none; /* Removes the bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.footer-section ul li {
+  margin-bottom: 8px; /* Optional spacing between list items */
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Karla", sans-serif;
+  font-size: 0.9rem;
+}
+
+.footer-section ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons a {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+/* Booking Page Styles */
+
+.booking-page {
+  background: url("/public/pexels-max-hoy-161194241-10841111.jpg") no-repeat
+    center center fixed;
+  background-size: cover; /* Ensures the image covers the entire background */
+  min-height: 100vh; /* Ensures the height covers the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Adds a slight white overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  width: 800px;
+  margin: 50px auto;
+}
+
+.booking-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2b300b;
+  font-family: "Krona One", sans-serif;
+}
+
+.booking-container-pending {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Adds a slight white overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  width: 800px;
+  margin: 50px auto;
+  margin-top: -50px;
+}
+
+.booking-container-pending h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2b300b;
+  font-family: "Krona One", sans-serif;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-color: #2b300b;
+  border: 2px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2b300b;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  border: 2px solid #2b300b;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 12px;
+  background-color: #2b300b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: #4f4f24;
+}
+
+@media (max-width: 768px) {
+  .booking-container {
+    margin: 20px;
+  }
+}
+
+/* Profile Page Styles */
+.profile-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Adds a slight white overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  width: 800px;
+  margin: 50px auto;
+}
+
+.profile-card {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Adds a slight white overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.profile-card h2 {
+  margin-bottom: 10px;
+  font-family: "Krona One", sans-serif;
+  color: #2b300b;
+}
+
+.profile-card p {
+  font-family: "Karla", sans-serif;
+  margin: 5px 0;
+  color: #2b300b;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.pending-trips-page {
+  background: url("/public/pexels-nina-hill-76946523-11893814.jpg") no-repeat
+    center center fixed;
+  background-size: cover; /* Ensures the image covers the entire background */
+  min-height: 100vh; /* Ensures the height covers the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracking-page {
+  background: url("/public/pexels-alexasfotos-10802569 1.png") no-repeat center
+    center fixed;
+  background-size: cover; /* Ensures the image covers the entire background */
+  min-height: 100vh; /* Ensures the height covers the viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tracking-container-pending {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.701
+  ); /* Adds a slight white overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  width: 800px;
+  margin: 50px auto;
+  margin-top: -105px;
+}
+
+.tracking-container-pending h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2b300b;
+  font-family: "Krona One", sans-serif;
+}
+
+/* src/pages/style.css */
+
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("/public/pexels-500photos-com-15338-93398.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding: 20px;
+  background-position: fixed;
+}
