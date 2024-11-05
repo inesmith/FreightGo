@@ -1,0 +1,111 @@
+
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #2B300B;
+    margin-left: 100px;
+  }
+  
+  .status {
+    color: #2B300B;
+    font-weight: bold;
+    margin-top: -15px;
+    font-family: 'Karla', sans-serif;
+    margin-left: 30px;
+  }
+  
+  .contact-info-email {
+    text-align: right;
+    font-size: 14px;
+    color: #2B300B;
+    font-family: 'Karla', sans-serif;
+    margin-top: -60px;
+    margin-right: 30px;
+  }
+  .contact-info-nom {
+    text-align: right;
+    font-size: 14px;
+    color: #2B300B;
+    font-family: 'Karla', sans-serif;
+    margin-right: 30px;
+    margin-top: -5px;
+  }
+  
+  .card-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stats-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #2B300B;
+    border-radius: 5px;
+    padding: 10px;
+    width: 920px;
+  }
+  
+  .view-button {
+    background-color: transparent;
+    color: #2B300B;
+    border: 1px solid #2B300B;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .view-button:hover {
+    background-color: #2B300B;
+    color: #fff;
+
+  }
+  
+  .edit-button {
+    background-color: #2B300B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: flex-end;
+    font-size: 14px;
+    margin-left: 880px;
+  }
+  
+  .edit-button:hover {
+    background-color: #4F4F24;
+  }
+  
+  .dashboardpage-container {
+    background-color: rgba(255, 255, 255, 0.701); /* Adds a slight white overlay for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    width: 1000px;
+    margin: 50px auto;
+    margin-top: -105px;
+  }
+  
+  .dashboardpage-container h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #2B300B;
+    font-family: 'Krona One', sans-serif;
+    margin-left: 30px;
+    font-size: larger;
+  }
