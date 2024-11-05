@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub repo size](https://img.shields.io/github/repo-size/inesmith/FreightGo?color=lightblue)
+![GitHub watchers](https://img.shields.io/github/watchers/inesmith/FreightGo?color=lightblue)
+![GitHub language count](https://img.shields.io/github/languages/count/inesmith/FreightGo?color=lightblue)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/inesmith/FreightGo?color=lightblue)
 
-## Available Scripts
+<h5 align="center" style="padding:0;margin:0;">Iné Smith</h5>
+<h5 align="center" style="padding:0;margin:0;">Student Number: 221076 <br> Email: 221076@virtualwindow.co.za</h5>
+<h6 align="center">DV200 | Semester 2 Term 4</h6>
 
-In the project directory, you can run:
+</br>
+<p align="center">
 
-### `npm start`
+  <a href="https://github.com/inesmith/FreightGo">
+    <div align="center">
+      <<img src="images/your_logo.png" width="50"> width="200px">
+    </div>
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3 align="center">FreightGo Logistics Platform</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
+  FreightGo is a web platform that connects users needing freight services with transporters. Designed to simplify logistics operations, FreightGo allows users to specify freight details, and transporters to accept, manage, and track orders, providing a streamlined experience for all stakeholders.
+  <br />
+  <br />
+  <a href="Demonstration Video.mov">View Demo</a>
+  ·
+  <a href="https://github.com/inesmith/FreightGo/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/inesmith/FreightGo/issues">Request Feature</a>
+</p>
 
-### `npm test`
+## Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [About the Project](#about-the-project)
+  - [Project Description](#project-description)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Features and Functionality](#features-and-functionality)
+- [Concept Process](#concept-process)
+  - [Ideation](#ideation)
+  - [Wireframes](#wireframes)
+- [Development Process](#development-process)
+  - [Implementation Process](#implementation-process)
+    - [Highlights](#highlights)
+    - [Challenges](#challenges)
+  - [Future Implementation](#future-implementation)
+- [Final Outcome](#final-outcome)
+  - [Mockups](#mockups)
+  - [Video Demonstration](#video-demonstration)
+- [Conclusion](#conclusion)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `npm run build`
+## About the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Project Description
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+FreightGo is a logistics management platform developed to streamline freight service booking and tracking. The platform connects users who need freight services with transporters, simplifying the logistics process and providing an efficient and transparent way to manage freight operations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project includes essential features such as:
 
-### `npm run eject`
+- **User and Transporter Registration**: Users and transporters can register to access specific functionalities, like booking and accepting freight services.
+- **Freight Booking and Tracking**: Users can select freight type, destination, and schedule, while transporters can accept and track these orders.
+- **User and Transporter Dashboards**: Different dashboards for users and transporters to view bookings, manage schedules, and track deliveries.
+- **Responsive Design**: Accessible on various devices for a seamless user experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project is built using the MERN stack, with MongoDB, Express, React, and Node.js.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **MongoDB**: For database management and storage.
+- **Express.js**: Backend framework for handling routes and API calls.
+- **React**: Frontend framework for a dynamic and responsive user interface.
+- **Node.js**: JavaScript runtime for backend services.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="https://www.mongodb.com/assets/images/global/leaf.svg" alt="MongoDB Logo" width="50">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express.js Logo" width="50">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="50">
+<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="Node.js Logo" width="50">
 
-## Learn More
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run FreightGo locally, view the pages in Chrome using `localhost` manually, as login and sign-up functionality are currently under development.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
 
-### Code Splitting
+- **Node.js** and **npm**: Ensure Node.js and npm are installed.
+- **MongoDB**: Set up MongoDB locally or configure a cloud MongoDB Atlas instance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Installation
 
-### Analyzing the Bundle Size
+1. **Clone the repository**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   git clone https://github.com/inesmith/FreightGo.git
+   ```
 
-### Making a Progressive Web App
+2. **Navigate to the project directory**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ```bash
+   cd FreightGo
+   ```
 
-### Advanced Configuration
+3. **Install dependencies:**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   npm install
+   ```
 
-### Deployment
+4. **Set up MongoDB: Configure your MongoDB connection string in the .env file**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   MONGODB_URI=your_mongodb_connection_string
+   ```
 
-### `npm run build` fails to minify
+5. **Start the server**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   npm start
+   ```
+
+6. **Open in browser: Visit http://localhost:3000 in Chrome for viewing pages manually.**
+
+Features and Functionality
+User Registration: Users and transporters have unique registration processes, allowing access to specific features.
+Freight Management: Users can book services based on their freight needs.
+Order Tracking: Transporters can track orders through their dashboard.
+Concept Process
+Wireframes
+Wireframes designed for the user and transporter flows provide insights into the navigation and user experience.
+
+Development Process
+Implementation Process
+Highlights: Simplified booking and tracking.
+Challenges: Handling asynchronous data updates for order tracking.
+Final Outcome
+Check the Mockups and Video Demonstration for visual demonstrations.
+
+License
+This project is licensed under the MIT License.
+
+Contact
+Iné Smith - 221076@virtualwindow.co.za
